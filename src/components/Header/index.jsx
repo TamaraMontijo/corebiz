@@ -5,9 +5,7 @@ import {
   Logo,
   ContainerInput,
   ContainerUser,
-  MenuHamburguer,
 } from "./styles";
-import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../../assets/logo.svg";
 import logoResponsivo from "../../assets/logo-responsiva.svg";
 import search from "../../assets/icons/search.svg";
@@ -20,9 +18,7 @@ export default function Header() {
   return (
     <Container>
       <Logo src={window.innerWidth > 800 ? logo : logoResponsivo} />
-      <MenuHamburguer>
-        <GiHamburgerMenu />
-      </MenuHamburguer>
+     
       <ContainerInput>
         <input
           className="input__field"
