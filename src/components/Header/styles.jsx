@@ -15,7 +15,7 @@ export const Container = styled.header`
   }
 `;
 
-export const MenuHamburguer = styled.div`
+export const Menu = styled.div`
   display: none;
 
   @media(max-width: 800px) {
